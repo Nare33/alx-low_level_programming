@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * jack-bauer - print time
- *
- * Description: print the time in minutes for 24 hours
+ * jack_bauer - print time
+ * 
+ * Description: print the time in min. for 24 hours
  *
  */
 
