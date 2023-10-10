@@ -1,10 +1,12 @@
 #include "main.h"
+
 /**
  * jack-bauer - print time
  *
  * Description: print the time in minutes for 24 hours
  *
  */
+
 void jack_bauer(void)
 {
 	int H, M;
