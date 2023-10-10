@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * jacka-bauer - print time
+ * jack-bauer - print time
  *
  * Description: print the time in minutes for 24 hours
  *
