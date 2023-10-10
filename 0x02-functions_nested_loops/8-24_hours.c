@@ -1,23 +1,24 @@
 #include "main.h"
-
 /**
- * jack_bauer -prints every minutes of the day
- * Return: void
+ * jacka-bauer - print time
+ *
+ * Description: print the time in minutes for 24 hours
+ *
  */
-
 void jack_bauer(void)
 {
-        int i' j;
+	int H, M;
 
-        for (i = 0 ; i < 24 ; i++)
-        {
-                for (j = 0 ; j < 60 ; j++)
-                {
-                        _putchar(i / 10 + '0');
-                        _putchar(i % 10 + '0');
-                        _putchar('i');
-                        _putchar(j / 10 + '0');
-                        _putchar(j % 10 + '0');
-                }
-        }
+	for (H = 0; H < 24; H++)
+	{
+		for (M = 0; M < 60; M++)
+		{
+			_putchar((H / 10) + '0');
+			_putchar((H % 10) + '0');
+			_putchar(':');
+			_putchar((M / 10) + '0');
+			_putchar((M % 10) + '0');
+			_putchar('\n');
+		}
+	}
 }
