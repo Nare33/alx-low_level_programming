@@ -1,12 +1,13 @@
 #include "3-calc.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include "function_pointers.h"
 
 /**
  * main - perform calculator function on command line
  * @argc: argument count
  * @argv: argument vector
- * Return: results of calc function executiob
+ * Return: results of calc function execution
  */
 
 int main(int argc, char *argv[])
