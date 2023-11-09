@@ -3,15 +3,14 @@
 #include <stdarg.h>
 
 /**
- * print_strings - print strings passed to a function as parameter
+ * print_strings - prints anything
  * @separator: separator between two strings
- * @n: number of strings to print
+ * @n: number of strings
  */
 
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
-
 	char *str;
 
 	va_list ptr_str;
@@ -32,7 +31,9 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		}
 		if (i != (n - 1) && separator != NULL)
 			printf("%s", separator);
+
 	}
 	printf("\n");
 	va_end(ptr_str);
 }
+
